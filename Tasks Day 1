@@ -1,0 +1,227 @@
+lalo_@LAPTOP-45R91SFT MINGW64 ~/ih-labs/lab-bash (master)
+$ echo Hello World! I will be starting all over again from scratch!
+Hello World! I will be starting all over again from scratch!
+
+lalo_@LAPTOP-45R91SFT MINGW64 ~/ih-labs/lab-bash (master)
+$ ls
+exercices/  inputs/  lorem/  lorem-copy/  outputs/  readme.md
+
+lalo_@LAPTOP-45R91SFT MINGW64 ~/ih-labs/lab-bash (master)
+$ mkdir new_dir
+
+lalo_@LAPTOP-45R91SFT MINGW64 ~/ih-labs/lab-bash (master)
+$ ls
+exercices/  inputs/  lorem/  lorem-copy/  new_dir/  outputs/  readme.md
+
+lalo_@LAPTOP-45R91SFT MINGW64 ~/ih-labs/lab-bash (master)
+$ rm -r new_dir
+
+lalo_@LAPTOP-45R91SFT MINGW64 ~/ih-labs/lab-bash (master)
+$ ls
+exercices/  inputs/  lorem/  lorem-copy/  outputs/  readme.md
+
+lalo_@LAPTOP-45R91SFT MINGW64 ~/ih-labs/lab-bash (master)
+$ cd lorem
+
+lalo_@LAPTOP-45R91SFT MINGW64 ~/ih-labs/lab-bash/lorem (master)
+$ ls
+at.txt  at.txte  lorem.txt  sed.txt
+
+lalo_@LAPTOP-45R91SFT MINGW64 ~/ih-labs/lab-bash/lorem (master)
+$ cp sed.txt ~/ih-labs/lab-bash/lorem-copy
+
+lalo_@LAPTOP-45R91SFT MINGW64 ~/ih-labs/lab-bash/lorem (master)
+$ cd ..
+
+lalo_@LAPTOP-45R91SFT MINGW64 ~/ih-labs/lab-bash (master)
+$ cd lorem-copy
+
+lalo_@LAPTOP-45R91SFT MINGW64 ~/ih-labs/lab-bash/lorem-copy (master)
+$ ls
+dummy_file.txt  sed.txt
+
+lalo_@LAPTOP-45R91SFT MINGW64 ~/ih-labs/lab-bash/lorem-copy (master)
+$ cd ..
+
+lalo_@LAPTOP-45R91SFT MINGW64 ~/ih-labs/lab-bash (master)
+$ cd lorem
+
+lalo_@LAPTOP-45R91SFT MINGW64 ~/ih-labs/lab-bash/lorem (master)
+$ ls
+at.txt  at.txte  lorem.txt  sed.txt
+
+lalo_@LAPTOP-45R91SFT MINGW64 ~/ih-labs/lab-bash/lorem (master)
+$ cp at.txt at.txte ~/ih-labs/lab-bash/lorem-copy
+
+lalo_@LAPTOP-45R91SFT MINGW64 ~/ih-labs/lab-bash/lorem (master)
+$ cd ..
+
+lalo_@LAPTOP-45R91SFT MINGW64 ~/ih-labs/lab-bash (master)
+$ cd lorem-copy
+
+lalo_@LAPTOP-45R91SFT MINGW64 ~/ih-labs/lab-bash/lorem-copy (master)
+$ ls
+at.txt  at.txte  dummy_file.txt  sed.txt
+
+lalo_@LAPTOP-45R91SFT MINGW64 ~/ih-labs/lab-bash/lorem-copy (master)
+$ cd ..
+
+lalo_@LAPTOP-45R91SFT MINGW64 ~/ih-labs/lab-bash (master)
+$ cd lorem
+
+lalo_@LAPTOP-45R91SFT MINGW64 ~/ih-labs/lab-bash/lorem (master)
+$ cat sed.txt
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
+sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
+sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam,
+nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur,
+vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?Homo homini lupus
+
+lalo_@LAPTOP-45R91SFT MINGW64 ~/ih-labs/lab-bash/lorem (master)
+$ cat at.txt lorem.txt
+At vero eos ET accusamus ET iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
+deleniti atque corrupti quos dolores ET quas molestias excepturi sint occaecati cupiditate non
+provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum ET dolorum fuga.
+Et harum quidem rerum facilis est ET expedita distinctio.
+Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod
+maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.
+Temporibus autem quibusdam ET aut officiis debitis aut rerum necessitatibus saepe eveniET
+ut ET voluptates repudiandae sint ET molestiae non recusandae.
+Itaque earum rerum hic tenETur a sapiente delectus, ut aut reiciendis voluptatibus maiores
+alias consequatur aut perferendis doloribus asperiores repellat
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+lalo_@LAPTOP-45R91SFT MINGW64 ~/ih-labs/lab-bash/lorem (master)
+$ cd ..
+
+lalo_@LAPTOP-45R91SFT MINGW64 ~/ih-labs/lab-bash (master)
+$ cd lorem-copy
+
+lalo_@LAPTOP-45R91SFT MINGW64 ~/ih-labs/lab-bash/lorem-copy (master)
+$ head -n 3 sed.txt
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
+
+lalo_@LAPTOP-45R91SFT MINGW64 ~/ih-labs/lab-bash/lorem-copy (master)
+$ tail -n 3 sed.txt
+Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam,
+nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur,
+vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?Homo homini lupus
+
+lalo_@LAPTOP-45R91SFT MINGW64 ~/ih-labs/lab-bash/lorem-copy (master)
+$ tail -n 3 sed.txt
+Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam,
+nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur,
+vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?Homo homini lupus. Homo homini lupus (bis).
+
+lalo_@LAPTOP-45R91SFT MINGW64 ~/ih-labs/lab-bash/lorem-copy (master)
+$ sed 's/et/ET/' sed.txt
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+totam rem aperiam, eaque ipsa quae ab illo inventore veritatis ET quasi architecto beatae vitae dicta sunt explicabo.
+Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
+sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+Neque porro quisquam est, qui dolorem ipsum quia dolor sit amET, consectetur, adipisci velit,
+sed quia non numquam eius modi tempora incidunt ut labore ET dolore magnam aliquam quaerat voluptatem.
+Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam,
+nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur,
+vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?Homo homini lupus. Homo homini lupus (bis).
+
+lalo_@LAPTOP-45R91SFT MINGW64 ~/ih-labs/lab-bash/lorem-copy (master)
+$ Git config user.name
+lleonrivero
+
+lalo_@LAPTOP-45R91SFT MINGW64 ~/ih-labs/lab-bash/lorem-copy (master)
+$ git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager-core
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+core.editor="C:\Users\lalo_\AppData\Local\Programs\Microsoft VS Code\bin\code" --wait
+user.name=lleonrivero
+user.email=lleon@sienel.es
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+remote.origin.url=https://github.com/lleonrivero/lab-bash.git
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+branch.master.remote=origin
+branch.master.merge=refs/heads/master
+
+lalo_@LAPTOP-45R91SFT MINGW64 ~/ih-labs/lab-bash/lorem-copy (master)
+$ pwd
+/c/Users/lalo_/ih-labs/lab-bash/lorem-copy
+
+lalo_@LAPTOP-45R91SFT MINGW64 ~/ih-labs/lab-bash/lorem-copy (master)
+$ cd ..
+
+lalo_@LAPTOP-45R91SFT MINGW64 ~/ih-labs/lab-bash (master)
+$ cd lorem
+
+lalo_@LAPTOP-45R91SFT MINGW64 ~/ih-labs/lab-bash/lorem (master)
+$ ls *.txt
+at.txt  lorem.txt  sed.txt
+
+lalo_@LAPTOP-45R91SFT MINGW64 ~/ih-labs/lab-bash/lorem (master)
+$ git ls-files | cat sed.txt | wc -l
+9
+
+lalo_@LAPTOP-45R91SFT MINGW64 ~/ih-labs/lab-bash/lorem (master)
+$ cd ..
+
+lalo_@LAPTOP-45R91SFT MINGW64 ~/ih-labs/lab-bash (master)
+$ git ls-files "lorem" | wc -l
+4
+
+lalo_@LAPTOP-45R91SFT MINGW64 ~/ih-labs/lab-bash (master)
+$ echo No bonus today. ;)
+bash: syntax error near unexpected token `)'
+
+lalo_@LAPTOP-45R91SFT MINGW64 ~/ih-labs/lab-bash (master)
+$ echo No brackets. Alright. No bonus today!
+No brackets. Alright. No bonus today!
+
+lalo_@LAPTOP-45R91SFT MINGW64 ~/ih-labs/lab-bash (master)
+$ git add .
+
+lalo_@LAPTOP-45R91SFT MINGW64 ~/ih-labs/lab-bash (master)
+$ git commit -m "Day 1 tasks"
+[master 26dc966] Day 1 tasks
+ 3 files changed, 29 insertions(+)
+ create mode 100644 lorem-copy/at.txt
+ create mode 100644 lorem-copy/at.txte
+ create mode 100644 lorem-copy/sed.txt
+
+lalo_@LAPTOP-45R91SFT MINGW64 ~/ih-labs/lab-bash (master)
+$ git push
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 1.45 KiB | 740.00 KiB/s, done.
+Total 6 (delta 2), reused 2 (delta 1), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/lleonrivero/lab-bash.git
+   689f07d..26dc966  master -> master
+
+lalo_@LAPTOP-45R91SFT MINGW64 ~/ih-labs/lab-bash (master)
+$
